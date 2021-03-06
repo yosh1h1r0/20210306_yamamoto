@@ -126,7 +126,8 @@ line-height: 70px;
 }
 
 .header-nav a{
-color: #f2f2f2;
+    color: #f2f2f2;
+    text-decoration: none;
 }
 /* ここまでがヘッダー */
 
@@ -333,7 +334,7 @@ margin-left: 80%;
     }
 
     .img{
-        width: 900px;
+        width: 100%;
         margin-top: 10%;
         height: 200px;
         padding-right: 30px ;
@@ -341,7 +342,7 @@ margin-left: 80%;
     }
 
     .img2{
-        width: 900px;
+        width: 100%;
         margin-top: 10%;
         height: 200px;
         padding-left: 30px  ;
@@ -364,11 +365,13 @@ margin-left: 80%;
 
 
     .recruit{
-        font-size: 30px;
-        color: #fff;
         position: absolute;
-        top: 55%;
-        right: 20%;
+        text-align: center;
+        font-size: 30px;
+        color:#fff;
+        top: 50%;
+        right: 22%;
+        transform: translate(40%,40%);
     }
 
 .rec-br{
@@ -470,6 +473,7 @@ display: flex;
 
 .footer-nav a{
 color: #f2f2f2;
+text-decoration: none;
 }
 
 .copyright{
